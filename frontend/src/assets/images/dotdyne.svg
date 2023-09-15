@@ -1,0 +1,19 @@
+<svg viewBox="0 0 350 105" xmlns="http://www.w3.org/2000/svg">
+
+    <circle cx="50" cy="50" r="30" fill="none" stroke="#6C63FF" stroke-width="5"/>
+
+    <path d="M 50 50 m -25, 0 a 25,25 0 1,0 50,0 a 25,25 0 1,0 -50,0" fill="none" stroke="#6C63FF" stroke-width="2.5" opacity="0.6"/>
+
+    <g>
+        <circle cx="50" cy="50" r="15" fill="none" stroke="#1AD6AA" stroke-width="2.5"/>
+        <circle cx="50" cy="50" r="2" fill="#6C63FF"/>
+        <circle cx="65" cy="50" r="3" fill="#6C63FF"/>
+        <circle cx="35" cy="50" r="3" fill="#6C63FF"/>
+        
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="30s" repeatCount="indefinite"/>
+    </g>
+
+    <text x="90" y="55" font-family="Tahoma" font-size="40" font-weight="bold" fill="#6C63FF" text-anchor="left">DOTDYNE</text>
+    
+    <text x="93" y="75" font-family="Tahoma" font-size="15" font-weight="lighter" fill="#1AD6AA" text-anchor="left" letter-spacing="1.7">Energize Your Workflow</text>
+</svg>
